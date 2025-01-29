@@ -1,0 +1,27 @@
+{
+  "name": "cors-lite",
+  "version": "0.0.1",
+  "description": "A simple and lightweight CORS middleware for Node.js and Express.",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "cors",
+    "middleware",
+    "express",
+    "nodejs",
+    "simple"
+  ],
+  "author": "Shyam Tala <shyamtala003@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shyamtala003/cors-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shyamtala003/cors-lite/issues"
+  },
+  "homepage": "https://github.com/shyamtala003/cors-lite#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
