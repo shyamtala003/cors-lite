@@ -1,24 +1,24 @@
-# cors-lite
+# lite-cors
 
-A lightweight CORS middleware for Node.js applications. `cors-lite` provides essential Cross-Origin Resource Sharing (CORS) capabilities while maintaining a minimal footprint, making it a great alternative to the `cors` package.
+A lightweight CORS middleware for Node.js applications. `lite-cors` provides essential Cross-Origin Resource Sharing (CORS) capabilities while maintaining a minimal footprint, making it a great alternative to the `cors` package.
 
 ## Installation
 
-Install `cors-lite` using npm:
+Install `lite-cors` using npm:
 
 ```sh
-npm install cors-lite
+npm install lite-cors
 ```
 
 ## Usage
 
 ### Basic Setup
 
-Import and use `cors-lite` in your Express application:
+Import and use `lite-cors` in your Express application:
 
 ```javascript
 import express from "express";
-import cors from "cors-lite";
+import cors from "lite-cors";
 
 const app = express();
 
@@ -34,7 +34,7 @@ app.listen(3000, () => console.log("Server running on port 3000"));
 
 ### Custom Configuration
 
-You can customize `cors-lite` by passing an options object:
+You can customize `lite-cors` by passing an options object:
 
 ```javascript
 app.use(
@@ -85,7 +85,7 @@ app.use(
 );
 ```
 
-## Why Use cors-lite?
+## Why Use lite-cors?
 
 - 🏗 **Lightweight**: Smaller and more efficient than the `cors` package.
 - 🚀 **Easy to Use**: Simple API with intuitive configuration.
